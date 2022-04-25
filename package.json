@@ -1,0 +1,17 @@
+{
+  "name": "todo",
+  "version": "1.0.0",
+  "description": "Lista de tarefas Microsoft To Do based",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [
+    "html5",
+    "css3",
+    "js",
+    "node"
+  ],
+  "author": "Beatriz Assumcao",
+  "license": "MIT"
+}

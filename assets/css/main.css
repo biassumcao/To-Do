@@ -1,0 +1,31 @@
+/* comentario */
+
+/* CSS reset:: */
+
+/* inherit, initial, unset */
+body, h1, h2, h3, h4, h5, h6{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+ *{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: gray;
+    color: white;
+}
+
+@media (min-width: 768px) {
+    /* Especificidade CSS: quanto mais especificio o seletor, mais prioritario */
+    html body{
+        background-color: unset;
+        color: initial;
+    }
+    
+    body{
+        background-color: red
+    }
+}
