@@ -1,0 +1,67 @@
+@import 'reset.css';
+
+.menu, .container, .details{
+    border: var(--border);
+    height: 100vh;
+}
+
+.menu{
+    width: var(--menuWidth);
+    border-color: #24FF00;
+}
+
+.container{
+    width: calc(100vw - (var(--menuWidth) + var(--detailsWidth)));
+    border-color: #FA00FF;
+}
+
+.details {
+    width: var(--detailsWidth);
+    border-color: #0500FF;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+/* menu ------------------------------------------------ header */
+.menu > .menu___header___profile{
+    flex-direction: column;
+    font-size: 0.7em;
+}
+
+.menu input[type="search"],
+.menu input[type="search"]::placeholder{
+    font-size: 0.9em;
+}
+
+.menu .menu___header___profile > div{
+    width: var(--menuWidth);
+    align-items: center;
+    justify-content: space-around;
+}
+
+.menu .header__img__profile{
+    width: 15%;
+}
+
+.menu .menu___header___profile svg{
+    width: 24px;
+    height: 24px;
+}
+
+.menu .menu___header___profile label{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-color: #f4f4f4;
+    border-radius: 5px;
+    box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, 0.1);
+}
+
+.menu .menu___header___profile label input{
+    padding-left: 5%;
+    border: none;
+    background: none;
+}
+/* menu ------------------------------------------------ header */
